@@ -1,2 +1,3 @@
-class PostsController < ResourceController::Base
+class PostsController < ApplicationController
+  resource_controller
 end
